@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ERP Portal Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">ERP Portal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navBar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="finance.html">Finance</a></li>
+        <li class="nav-item"><a class="nav-link" href="sales.html">Sales</a></li>
+        <li class="nav-item"><a class="nav-link" href="crm.html">CRM</a></li>
+        <li class="nav-item"><a class="nav-link" href="production.html">Production</a></li>
+        <li class="nav-item"><a class="nav-link" href="supply.html">Supply Chain</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container py-4">
+  <section class="page-hero p-4 p-md-5 mb-4">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-8">
+        <h1 class="display-5 fw-bold">Enterprise Resource Planning Portal</h1>
+        <p class="lead mb-0">A responsive Bootstrap dashboard that presents finance, sales, CRM, production, and supply chain performance in one portal.</p>
+      </div>
+      <div class="col-lg-4">
+        <div class="bg-white text-dark rounded-4 p-3">
+          <div class="fw-semibold">Professor demo ready</div>
+          <div class="small text-secondary">Five pages, five charts per page, synthetic data</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="row g-3">
+    <div class="col-md-6 col-lg-4"><div class="metric-card p-4 h-100"><div class="metric-label">Finance</div><p class="mb-0">Revenue, expenses, profit, and cash flow.</p></div></div>
+    <div class="col-md-6 col-lg-4"><div class="metric-card p-4 h-100"><div class="metric-label">Sales</div><p class="mb-0">Channel performance, leads, and conversion rates.</p></div></div>
+    <div class="col-md-6 col-lg-4"><div class="metric-card p-4 h-100"><div class="metric-label">CRM</div><p class="mb-0">Satisfaction, retention, tickets, and service response.</p></div></div>
+    <div class="col-md-6 col-lg-6"><div class="metric-card p-4 h-100"><div class="metric-label">Production</div><p class="mb-0">Output, quality, uptime, labor, and downtime.</p></div></div>
+    <div class="col-md-6 col-lg-6"><div class="metric-card p-4 h-100"><div class="metric-label">Supply Chain</div><p class="mb-0">Inventory, lead time, delivery performance, and procurement cost.</p></div></div>
+  </section>
+
+  <section class="row g-3 mt-1">
+    <div class="col-12"><div class="chart-card p-4 text-center"><a class="btn btn-primary me-2 mb-2" href="finance.html">Open Finance</a><a class="btn btn-outline-primary me-2 mb-2" href="sales.html">Open Sales</a><a class="btn btn-outline-primary me-2 mb-2" href="crm.html">Open CRM</a><a class="btn btn-outline-primary me-2 mb-2" href="production.html">Open Production</a><a class="btn btn-outline-primary mb-2" href="supply.html">Open Supply Chain</a></div></div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
