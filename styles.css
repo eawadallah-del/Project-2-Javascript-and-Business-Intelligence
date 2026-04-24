@@ -1,0 +1,45 @@
+:root{
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --ink: #0f172a;
+  --muted: #475569;
+  --line: #e2e8f0;
+}
+
+body{
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.navbar-brand{
+  font-weight: 700;
+  letter-spacing: .2px;
+}
+
+.page-hero{
+  background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 100%);
+  color: white;
+  border-radius: 1.25rem;
+}
+
+.metric-card, .chart-card{
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+.metric-value{
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.metric-label{
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+canvas{
+  width: 100% !important;
+  height: 290px !important;
+}
